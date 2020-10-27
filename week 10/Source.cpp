@@ -9,7 +9,7 @@ int main(){
 
 	while (arr[i] != '\0') {
 		
-		if (arr[i] >= 'a' && arr[i] <= 'z') {
+		if (arr[i] >= 'a' && arr[i] <= 'z'||arr[i] == ' ') {
 			if (arr[i] > max) {
 				max = arr[i];
 			}
